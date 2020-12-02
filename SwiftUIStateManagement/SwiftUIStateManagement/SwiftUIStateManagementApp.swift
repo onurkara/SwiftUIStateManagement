@@ -8,7 +8,7 @@ import SwiftUI
 struct SwiftUIStateManagementApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StateView()
         }
     }
 }
