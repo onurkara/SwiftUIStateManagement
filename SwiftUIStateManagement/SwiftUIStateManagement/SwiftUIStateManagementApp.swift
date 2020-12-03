@@ -8,7 +8,8 @@ import SwiftUI
 struct SwiftUIStateManagementApp: App {
     var body: some Scene {
         WindowGroup {
-            StateView()
+            //StateView()
+            BindingAncestorView()
         }
     }
 }

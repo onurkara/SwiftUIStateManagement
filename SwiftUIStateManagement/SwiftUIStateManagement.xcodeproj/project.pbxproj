@@ -11,6 +11,8 @@
 		26DAD01825780C6C00C8BA97 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DAD01725780C6C00C8BA97 /* StateView.swift */; };
 		26DAD01A25780C6D00C8BA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DAD01925780C6D00C8BA97 /* Assets.xcassets */; };
 		26DAD01D25780C6D00C8BA97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DAD01C25780C6D00C8BA97 /* Preview Assets.xcassets */; };
+		26FB68EF25796D7500326B7F /* BindingAncestorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FB68EE25796D7500326B7F /* BindingAncestorView.swift */; };
+		26FB68F325796D9B00326B7F /* BindingChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FB68F225796D9B00326B7F /* BindingChildView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		26DAD01925780C6D00C8BA97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26DAD01C25780C6D00C8BA97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		26DAD01E25780C6D00C8BA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FB68EE25796D7500326B7F /* BindingAncestorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingAncestorView.swift; sourceTree = "<group>"; };
+		26FB68F225796D9B00326B7F /* BindingChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChildView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			children = (
 				26DAD01525780C6C00C8BA97 /* SwiftUIStateManagementApp.swift */,
 				26DAD0252578223D00C8BA97 /* State */,
+				26FB68ED25796D5600326B7F /* Binding */,
 				26DAD01925780C6D00C8BA97 /* Assets.xcassets */,
 				26DAD01E25780C6D00C8BA97 /* Info.plist */,
 				26DAD01B25780C6D00C8BA97 /* Preview Content */,
@@ -75,6 +80,15 @@
 				26DAD01725780C6C00C8BA97 /* StateView.swift */,
 			);
 			path = State;
+			sourceTree = "<group>";
+		};
+		26FB68ED25796D5600326B7F /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				26FB68EE25796D7500326B7F /* BindingAncestorView.swift */,
+				26FB68F225796D9B00326B7F /* BindingChildView.swift */,
+			);
+			path = Binding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				26DAD01825780C6C00C8BA97 /* StateView.swift in Sources */,
+				26FB68EF25796D7500326B7F /* BindingAncestorView.swift in Sources */,
 				26DAD01625780C6C00C8BA97 /* SwiftUIStateManagementApp.swift in Sources */,
+				26FB68F325796D9B00326B7F /* BindingChildView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
