@@ -10,6 +10,7 @@
 		2637821E257C0EF10075C708 /* EnvironmentObjectUserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637821D257C0EF10075C708 /* EnvironmentObjectUserSettings.swift */; };
 		26378222257C0F080075C708 /* EnvironmentObjectUserSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26378221257C0F080075C708 /* EnvironmentObjectUserSettingsView.swift */; };
 		26378225257C10380075C708 /* EnvironmentObjectUserSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26378224257C10380075C708 /* EnvironmentObjectUserSecondView.swift */; };
+		26378228257C235E0075C708 /* ObservableObjectInnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26378227257C235E0075C708 /* ObservableObjectInnerView.swift */; };
 		26532718257C0238001FBC27 /* ObservableObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26532717257C0238001FBC27 /* ObservableObjectViewModel.swift */; };
 		2653271C257C0243001FBC27 /* ObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2653271B257C0243001FBC27 /* ObservableObjectView.swift */; };
 		26DAD01625780C6C00C8BA97 /* SwiftUIStateManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DAD01525780C6C00C8BA97 /* SwiftUIStateManagementApp.swift */; };
@@ -24,6 +25,7 @@
 		2637821D257C0EF10075C708 /* EnvironmentObjectUserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectUserSettings.swift; sourceTree = "<group>"; };
 		26378221257C0F080075C708 /* EnvironmentObjectUserSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectUserSettingsView.swift; sourceTree = "<group>"; };
 		26378224257C10380075C708 /* EnvironmentObjectUserSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectUserSecondView.swift; sourceTree = "<group>"; };
+		26378227257C235E0075C708 /* ObservableObjectInnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectInnerView.swift; sourceTree = "<group>"; };
 		26532717257C0238001FBC27 /* ObservableObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectViewModel.swift; sourceTree = "<group>"; };
 		2653271B257C0243001FBC27 /* ObservableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectView.swift; sourceTree = "<group>"; };
 		26DAD01225780C6C00C8BA97 /* SwiftUIStateManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStateManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +64,7 @@
 			children = (
 				26532717257C0238001FBC27 /* ObservableObjectViewModel.swift */,
 				2653271B257C0243001FBC27 /* ObservableObjectView.swift */,
+				26378227257C235E0075C708 /* ObservableObjectInnerView.swift */,
 			);
 			path = "Observed Object";
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26532718257C0238001FBC27 /* ObservableObjectViewModel.swift in Sources */,
+				26378228257C235E0075C708 /* ObservableObjectInnerView.swift in Sources */,
 				26378225257C10380075C708 /* EnvironmentObjectUserSecondView.swift in Sources */,
 				26378222257C0F080075C708 /* EnvironmentObjectUserSettingsView.swift in Sources */,
 				2653271C257C0243001FBC27 /* ObservableObjectView.swift in Sources */,
