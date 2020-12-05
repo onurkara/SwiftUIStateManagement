@@ -9,7 +9,8 @@ struct SwiftUIStateManagementApp: App {
     var body: some Scene {
         WindowGroup {
             //StateView()
-            BindingAncestorView()
+            //BindingAncestorView()
+            ObservableObjectView()
         }
     }
 }

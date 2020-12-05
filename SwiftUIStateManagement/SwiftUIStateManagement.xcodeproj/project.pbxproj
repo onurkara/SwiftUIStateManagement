@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26532718257C0238001FBC27 /* ObservableObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26532717257C0238001FBC27 /* ObservableObjectViewModel.swift */; };
+		2653271C257C0243001FBC27 /* ObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2653271B257C0243001FBC27 /* ObservableObjectView.swift */; };
 		26DAD01625780C6C00C8BA97 /* SwiftUIStateManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DAD01525780C6C00C8BA97 /* SwiftUIStateManagementApp.swift */; };
 		26DAD01825780C6C00C8BA97 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DAD01725780C6C00C8BA97 /* StateView.swift */; };
 		26DAD01A25780C6D00C8BA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DAD01925780C6D00C8BA97 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26532717257C0238001FBC27 /* ObservableObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectViewModel.swift; sourceTree = "<group>"; };
+		2653271B257C0243001FBC27 /* ObservableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectView.swift; sourceTree = "<group>"; };
 		26DAD01225780C6C00C8BA97 /* SwiftUIStateManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStateManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DAD01525780C6C00C8BA97 /* SwiftUIStateManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStateManagementApp.swift; sourceTree = "<group>"; };
 		26DAD01725780C6C00C8BA97 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26532716257BF851001FBC27 /* Observed Object */ = {
+			isa = PBXGroup;
+			children = (
+				26532717257C0238001FBC27 /* ObservableObjectViewModel.swift */,
+				2653271B257C0243001FBC27 /* ObservableObjectView.swift */,
+			);
+			path = "Observed Object";
+			sourceTree = "<group>";
+		};
 		26DAD00925780C6C00C8BA97 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +72,7 @@
 				26DAD01525780C6C00C8BA97 /* SwiftUIStateManagementApp.swift */,
 				26DAD0252578223D00C8BA97 /* State */,
 				26FB68ED25796D5600326B7F /* Binding */,
+				26532716257BF851001FBC27 /* Observed Object */,
 				26DAD01925780C6D00C8BA97 /* Assets.xcassets */,
 				26DAD01E25780C6D00C8BA97 /* Info.plist */,
 				26DAD01B25780C6D00C8BA97 /* Preview Content */,
@@ -160,6 +174,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26532718257C0238001FBC27 /* ObservableObjectViewModel.swift in Sources */,
+				2653271C257C0243001FBC27 /* ObservableObjectView.swift in Sources */,
 				26DAD01825780C6C00C8BA97 /* StateView.swift in Sources */,
 				26FB68EF25796D7500326B7F /* BindingAncestorView.swift in Sources */,
 				26DAD01625780C6C00C8BA97 /* SwiftUIStateManagementApp.swift in Sources */,
