@@ -13,8 +13,9 @@ struct SwiftUIStateManagementApp: App {
         WindowGroup {
             //StateView()
             //BindingAncestorView()
-            ObservableObjectView()
+            //ObservableObjectView()
             //EnvironmentObjectUserSettingsView().environmentObject(settings)
+            StateObjectView()
         }
     }
 }

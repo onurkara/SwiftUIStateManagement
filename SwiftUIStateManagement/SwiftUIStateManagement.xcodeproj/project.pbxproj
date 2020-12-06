@@ -11,6 +11,10 @@
 		26378222257C0F080075C708 /* EnvironmentObjectUserSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26378221257C0F080075C708 /* EnvironmentObjectUserSettingsView.swift */; };
 		26378225257C10380075C708 /* EnvironmentObjectUserSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26378224257C10380075C708 /* EnvironmentObjectUserSecondView.swift */; };
 		26378228257C235E0075C708 /* ObservableObjectInnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26378227257C235E0075C708 /* ObservableObjectInnerView.swift */; };
+		2651D603257D4D3A009F132A /* StateObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651D602257D4D3A009F132A /* StateObjectViewModel.swift */; };
+		2651D606257D5489009F132A /* StateObjectInnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651D605257D5489009F132A /* StateObjectInnerView.swift */; };
+		2651D609257D5A53009F132A /* StateObjectInnerViewObserved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651D608257D5A53009F132A /* StateObjectInnerViewObserved.swift */; };
+		2651D60E257D5AA2009F132A /* StateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651D60D257D5AA2009F132A /* StateObjectView.swift */; };
 		26532718257C0238001FBC27 /* ObservableObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26532717257C0238001FBC27 /* ObservableObjectViewModel.swift */; };
 		2653271C257C0243001FBC27 /* ObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2653271B257C0243001FBC27 /* ObservableObjectView.swift */; };
 		26DAD01625780C6C00C8BA97 /* SwiftUIStateManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DAD01525780C6C00C8BA97 /* SwiftUIStateManagementApp.swift */; };
@@ -26,6 +30,10 @@
 		26378221257C0F080075C708 /* EnvironmentObjectUserSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectUserSettingsView.swift; sourceTree = "<group>"; };
 		26378224257C10380075C708 /* EnvironmentObjectUserSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectUserSecondView.swift; sourceTree = "<group>"; };
 		26378227257C235E0075C708 /* ObservableObjectInnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectInnerView.swift; sourceTree = "<group>"; };
+		2651D602257D4D3A009F132A /* StateObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectViewModel.swift; sourceTree = "<group>"; };
+		2651D605257D5489009F132A /* StateObjectInnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectInnerView.swift; sourceTree = "<group>"; };
+		2651D608257D5A53009F132A /* StateObjectInnerViewObserved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectInnerViewObserved.swift; sourceTree = "<group>"; };
+		2651D60D257D5AA2009F132A /* StateObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectView.swift; sourceTree = "<group>"; };
 		26532717257C0238001FBC27 /* ObservableObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectViewModel.swift; sourceTree = "<group>"; };
 		2653271B257C0243001FBC27 /* ObservableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectView.swift; sourceTree = "<group>"; };
 		26DAD01225780C6C00C8BA97 /* SwiftUIStateManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStateManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +65,17 @@
 				26378224257C10380075C708 /* EnvironmentObjectUserSecondView.swift */,
 			);
 			path = "Environment Object";
+			sourceTree = "<group>";
+		};
+		2651D600257D4B13009F132A /* State Object */ = {
+			isa = PBXGroup;
+			children = (
+				2651D602257D4D3A009F132A /* StateObjectViewModel.swift */,
+				2651D60D257D5AA2009F132A /* StateObjectView.swift */,
+				2651D605257D5489009F132A /* StateObjectInnerView.swift */,
+				2651D608257D5A53009F132A /* StateObjectInnerViewObserved.swift */,
+			);
+			path = "State Object";
 			sourceTree = "<group>";
 		};
 		26532716257BF851001FBC27 /* Observed Object */ = {
@@ -93,6 +112,7 @@
 				26FB68ED25796D5600326B7F /* Binding */,
 				26532716257BF851001FBC27 /* Observed Object */,
 				2637821C257C0C6E0075C708 /* Environment Object */,
+				2651D600257D4B13009F132A /* State Object */,
 				26DAD01925780C6D00C8BA97 /* Assets.xcassets */,
 				26DAD01E25780C6D00C8BA97 /* Info.plist */,
 				26DAD01B25780C6D00C8BA97 /* Preview Content */,
@@ -194,16 +214,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2651D603257D4D3A009F132A /* StateObjectViewModel.swift in Sources */,
 				26532718257C0238001FBC27 /* ObservableObjectViewModel.swift in Sources */,
 				26378228257C235E0075C708 /* ObservableObjectInnerView.swift in Sources */,
+				2651D60E257D5AA2009F132A /* StateObjectView.swift in Sources */,
 				26378225257C10380075C708 /* EnvironmentObjectUserSecondView.swift in Sources */,
 				26378222257C0F080075C708 /* EnvironmentObjectUserSettingsView.swift in Sources */,
 				2653271C257C0243001FBC27 /* ObservableObjectView.swift in Sources */,
 				26DAD01825780C6C00C8BA97 /* StateView.swift in Sources */,
 				2637821E257C0EF10075C708 /* EnvironmentObjectUserSettings.swift in Sources */,
 				26FB68EF25796D7500326B7F /* BindingAncestorView.swift in Sources */,
+				2651D609257D5A53009F132A /* StateObjectInnerViewObserved.swift in Sources */,
 				26DAD01625780C6C00C8BA97 /* SwiftUIStateManagementApp.swift in Sources */,
 				26FB68F325796D9B00326B7F /* BindingChildView.swift in Sources */,
+				2651D606257D5489009F132A /* StateObjectInnerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
